@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://tanviarora.github.io/atom.xml" rel="self"/>
   <link href="http://tanviarora.github.io/"/>
-  <updated>2013-06-21T02:30:58+05:30</updated>
+  <updated>2013-06-21T02:35:15+05:30</updated>
   <id>http://tanviarora.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -40,8 +40,10 @@ The exact combination of software included in a LAMP package may vary, especiall
 <h3>Install Apache</h3>
 
 
-<p>To start off we will install Apache.
-1. Open Terminal and run:</p>
+<p>To start off we will install Apache.</p>
+
+<br>1. Open Terminal and run:
+
 
 <pre><code>&lt;br&gt;&lt;strong&gt; sudo apt-get install apache2&lt;/strong&gt;
 </code></pre>
@@ -49,10 +51,12 @@ The exact combination of software included in a LAMP package may vary, especiall
 <p><h3>Testing Apache</h3></p>
 
 
-<p>To make sure apache is installed correctly
-2. Run on web browser:</p>
+<p>To make sure apache is installed correctly</p>
 
-<pre><code>&lt;br&gt;&lt;strong&gt; http://localhost/&lt;/strong&gt;
+<br>2. Run on web browser:
+
+
+<pre><code>&lt;br&gt; http://localhost/
 </code></pre>
 
 <br> You should see a folder entitled <b> apache2-default</b>. Open it and you will see a message saying &#8220;It Works!&#8221; ,congrats to you!
