@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://tanviarora.github.io/atom.xml" rel="self"/>
   <link href="http://tanviarora.github.io/"/>
-  <updated>2013-06-21T03:34:49+05:30</updated>
+  <updated>2013-06-21T03:36:11+05:30</updated>
   <id>http://tanviarora.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -66,11 +66,11 @@ The exact combination of software included in a LAMP package may vary, especiall
 <pre><code>    sudo apt-get install php5 libapache2-mod-php5 
 </code></pre>
 
-<ol>
-<li>In order for PHP to work and be compatible with apache we must restart it. Run command:
-     sudo /etc/init.d/apache2 restart</li>
-</ol>
+<br>4. In order for PHP to work and be compatible with apache we must restart it. Run command:
 
+
+<pre><code>    sudo /etc/init.d/apache2 restart
+</code></pre>
 
 <p><p>
 <p><h3>Testing PHP</h3></p>
