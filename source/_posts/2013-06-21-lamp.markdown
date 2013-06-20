@@ -5,8 +5,7 @@ date: 2013-06-21 00:17
 comments: true
 categories: 
 ---
-<!--<h1 align="center"><i><b>LAMP</b></i><h1>-->
-<br>
+
 <h3 align="center"> What Is Lamp?</h3>
 LAMP is a combination of free, open source software. The acronym LAMP refers to the first letters of Linux (operating system), Apache HTTP Server, MySQL (database software), and PHP, Perl or Python, principal components to build a viable general purpose web server.
 The exact combination of software included in a LAMP package may vary, especially with respect to the web scripting software, as Perl or Python are sometimes dropped from the stack.
@@ -20,34 +19,34 @@ Like the other LAMP components, <b>Linux</b> is free open-source software which 
 <b>PHP</b> is a reflective programming language originally designed for producing dynamic web pages. PHP is used mainly in server-side application software. Perl and Python can be used similarly.
 
 ---
-<h2 align="center">Installing LAMP</h2>
+<h3 align="center">Installing LAMP</h3>
 <h3>Install Apache</h3>
 To start off we will install Apache.
 <br>1. Open Terminal and run:
-<strong> sudo apt-get install apache2</strong>
+<br><strong> sudo apt-get install apache2</strong>
 <p><h3>Testing Apache</h3></p>
-<b>To make sure apache is installed correctly</b>
+To make sure apache is installed correctly
 <br>2. Run on web browser:
-<strong> http://localhost/</strong>
+<br><strong> http://localhost/</strong>
 <p> You should see a folder entitled <b> apache2-default</b>. Open it and you will see a message saying "It Works!" ,congrats to you!
 <h3>Install PHP</h3>
-<b> In this part we will install PHP 5</b>
+ In this part we will install PHP 5
 <br>3. Open Terminal and run:
-<strong> sudo apt-get install php5 libapache2-mod-php5</strong>
+<br><strong> sudo apt-get install php5 libapache2-mod-php5</strong>
 <br>4. In order for PHP to work and be compatible with apache we must restart it. Run command:
-<strong> sudo /etc/init.d/apache2 restart</strong>
+<br><strong> sudo /etc/init.d/apache2 restart</strong>
 <p>
 <p><h3>Testing PHP</h3></p>
-<b>To make sure PHP is installed correctly</b>
+To make sure PHP is installed correctly
 <br>5. In the Terminal run:
-<strong> sudo gedit /var/www/testphp.php</strong>
-<br>this will open up a file called  phptest.php
+<br><strong> sudo gedit /var/www/testphp.php</strong>
+<br>This will open up a file called  phptest.php
 <br>
 6. copy this line into the phptest.php
 <strong> <?php phpinfo(); ?></strong>
 <br>7. save and close the file.
 <br>8. Run on web browser:
- <strong> http://localhost/testphp.php</strong>
+ <br><strong> http://localhost/testphp.php</strong>
 <br>The page should look like this:
  <footer> Test PHP Page
 <br>
@@ -62,27 +61,27 @@ To start off we will install Apache.
 </footer>
 
 <h3>Install MySQL</h3>
-<b> In this part we will install MySQL to find this guide.</b>
+ In this part we will install MySQL to find this guide.
 <br>9. Open Terminal and run:
-<strong> sudo apt-get install mysql-server</strong>
+<br><strong> sudo apt-get install mysql-server</strong>
 <br>
 10. Run on Terminal:
-<strong> mysql -u root</strong>
+<br><strong> mysql -u root</strong>
 <br>
 11. We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:
-<strong> sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin<strong>
+<br><strong> sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin<strong>
 <br>
-12. After that is installed our next task is to get PHP to work with MySQL. To do this we will need to open a file entitled php.ini. To open it type the following:
-<strong> gksudo gedit /etc/php5/apache2/php.ini </strong>
+12. After that is installed our next task is to get PHP to work with MySQL. To do this will need to open a file entitled php.ini. To open it type the following
+<br><strong> gksudo gedit /etc/php5/apache2/php.ini </strong>
 <br>
-13. Now we are going to have to uncomment the following line by taking out the semicolon (;).
-    Change this line:
+13. Now we are going to have to uncomment the following line by taking out the semicolon(;).
+  <br>  Change this line:
 <strong> ;extension=mysql.so</strong>
 <br>
-14. To look like this:
+14. To look like this:<br>
 <strong> extension=mysql.so</strong>
 <br>
-15. Now just restart Apache and you are all set!
+15. Now just restart apache and you are all set! <br>
 <strong> sudo /etc/init.d/apache2 restart</strong>
 <br>
 <h1 align="center"> Are You Ready To Work On LAMP?</h1>
