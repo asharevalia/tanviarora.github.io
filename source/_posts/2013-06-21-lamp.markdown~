@@ -69,8 +69,7 @@ The page should look like this:
  In this part we will install MySQL to find this guide.
 <br>9. Open Terminal and run:
 		sudo apt-get install mysql-server
-
-10. Run on Terminal:
+<br>10. Run on Terminal:
 		mysql -u root
 
 11. We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:<br>

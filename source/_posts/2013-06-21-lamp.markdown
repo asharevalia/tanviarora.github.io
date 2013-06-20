@@ -72,17 +72,17 @@ The page should look like this:
 <br>10. Run on Terminal:
 		mysql -u root
 
-11. We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:<br>
+<br>11. We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:
 		sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin
-12. After that is installed our next task is to get PHP to work with MySQL. To do this will need to open a file entitled php.ini. To open it type the following<br>
+<br>12. After that is installed our next task is to get PHP to work with MySQL. To do this will need to open a file entitled php.ini. To open it type the following<br>
 		gksudo gedit /etc/php5/apache2/php.ini
 
-13. Now we are going to have to uncomment the following line by taking out the semicolon(;).
+<br>13. Now we are going to have to uncomment the following line by taking out the semicolon(;).
   <br>  Change this line:
 		;extension=mysql.so
-14. To look like this:<br>
+<br>14. To look like this:<br>
 		extension=mysql.so
-15. Now just restart apache and you are all set! <br>
+<br>15. Now just restart apache and you are all set! <br>
 		sudo /etc/init.d/apache2 restart
 <br>
 <h1 align="center"> Are You Ready To Work On LAMP?</h1>
