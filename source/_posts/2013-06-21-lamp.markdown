@@ -51,6 +51,9 @@ This will open up a file called  phptest.php
 		http://localhost/testphp.php
 <br>
 The page should look like this:
+		
+		
+		
  		Test PHP Page
 		
 		
