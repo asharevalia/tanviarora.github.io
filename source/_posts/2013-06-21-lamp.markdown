@@ -22,12 +22,12 @@ Like the other LAMP components, <b>Linux</b> is free open-source software which 
 <h3 align="center">Installing LAMP</h3>
 <h3>Install Apache</h3>
 To start off we will install Apache.
-1. Open Terminal and run:
+<br>1. Open Terminal and run:
     <br><strong> sudo apt-get install apache2</strong>
 <p><h3>Testing Apache</h3></p>
 To make sure apache is installed correctly
-2. Run on web browser:
-    <br><strong> http://localhost/</strong>
+<br>2. Run on web browser:
+    <br> http://localhost/
 <br> You should see a folder entitled <b> apache2-default</b>. Open it and you will see a message saying "It Works!" ,congrats to you!
 <h3>Install PHP</h3>
  In this part we will install PHP 5
