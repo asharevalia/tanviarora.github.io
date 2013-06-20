@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://tanviarora.github.io/atom.xml" rel="self"/>
   <link href="http://tanviarora.github.io/"/>
-  <updated>2013-06-21T02:55:35+05:30</updated>
+  <updated>2013-06-21T03:02:56+05:30</updated>
   <id>http://tanviarora.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -87,16 +87,14 @@ To make sure PHP is installed correctly
 <pre><code>    &lt;?php phpinfo(); ?&gt;
 </code></pre>
 
-<p><br>7. save and close the file.
-<br>8. Run on web browser:</p>
+<ol>
+<li>save and close the file.
+<br>8. Run on web browser:
+     <a href="http://localhost/testphp.php">http://localhost/testphp.php</a>
+The page should look like this:
+     Test PHP Page</li>
+</ol>
 
-<pre><code>    http://localhost/testphp.php
-</code></pre>
-
-<p><br>The page should look like this:</p>
-
-<pre><code>    Test PHP Page
-</code></pre>
 
 <p><h3>Install MySQL</h3>
  In this part we will install MySQL to find this guide.
@@ -106,12 +104,12 @@ To make sure PHP is installed correctly
 </code></pre>
 
 <ol>
-<li>Run on Terminal:
+<li>Run on Terminal:<br>
     mysql -u root
 <br></li>
-<li>We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:
+<li>We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:<br>
     sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin</li>
-<li><p>After that is installed our next task is to get PHP to work with MySQL. To do this will need to open a file entitled php.ini. To open it type the following
+<li><p>After that is installed our next task is to get PHP to work with MySQL. To do this will need to open a file entitled php.ini. To open it type the following<br>
     gksudo gedit /etc/php5/apache2/php.ini</p></li>
 <li><p>Now we are going to have to uncomment the following line by taking out the semicolon(;).
 <br>  Change this line:
