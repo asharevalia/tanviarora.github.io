@@ -30,10 +30,11 @@ To make sure apache is installed correctly:<br>
 		http://localhost/
 You should see a folder entitled <b> apache2-default</b>. Open it and you will see a message saying "It Works!" ,congrats to you!<br>
 <h3>Install PHP</h3>
- In this part we will install PHP 5:
-<br>3. Open Terminal and run:
-		sudo apt-get install php5 libapache2-mod-php5
-<br>4. In order for PHP to work and be compatible with apache we must restart it. Run command:
+ In this part we will install PHP 5:<br>
+3. Open Terminal and run:
+		sudo apt-get install php5 libapache2-mod-php5 
+
+4. In order for PHP to work and be compatible with apache we must restart it. Run command:
 		sudo /etc/init.d/apache2 restart
 <p>
 <p><h3>Testing PHP</h3></p>
@@ -44,12 +45,12 @@ This will open up a file called  phptest.php
 <br>
 6. copy this line into the phptest.php
 		<?php phpinfo(); ?> 
-<br>
+
 7. save and close the file.
 <br>
 8. Run on web browser:
 		http://localhost/testphp.php
-<br>
+
 The page should look like this:
 		
 		
