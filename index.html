@@ -186,11 +186,14 @@ The page should look like this:</p>
 <pre><code>    sudo apt-get install mysql-server
 </code></pre>
 
+<p><br>10. Run on Terminal:</p>
+
+<pre><code>    mysql -u root
+</code></pre>
+
 <ol>
-<li><p>Run on Terminal:
-    mysql -u root</p></li>
-<li><p>We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:<br>
-    sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin</p></li>
+<li>We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:<br>
+    sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin</li>
 <li><p>After that is installed our next task is to get PHP to work with MySQL. To do this will need to open a file entitled php.ini. To open it type the following<br>
     gksudo gedit /etc/php5/apache2/php.ini</p></li>
 <li><p>Now we are going to have to uncomment the following line by taking out the semicolon(;).
