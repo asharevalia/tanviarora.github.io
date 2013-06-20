@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://tanviarora.github.io/atom.xml" rel="self"/>
   <link href="http://tanviarora.github.io/"/>
-  <updated>2013-06-21T03:33:44+05:30</updated>
+  <updated>2013-06-21T03:34:49+05:30</updated>
   <id>http://tanviarora.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -87,13 +87,11 @@ To make sure PHP is installed correctly
 <pre><code>    &lt;?php phpinfo(); ?&gt; 
 </code></pre>
 
-<ol>
-<li>save and close the file.
-<br></li>
-<li>Run on web browser:
-     <a href="http://localhost/testphp.php">http://localhost/testphp.php</a></li>
-</ol>
+<p><br>7. save and close the file.
+<br>8. Run on web browser:</p>
 
+<pre><code>    http://localhost/testphp.php
+</code></pre>
 
 <p>The page should look like this:</p>
 
