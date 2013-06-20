@@ -8,7 +8,7 @@ categories:
 {% img center /images/dropbox1.png 600 400 Dropbox "image not available" %}
 
 <h2 align="center"> What is Dropbox?</h2>
-	"One place for all your stuff, wherever you are."
+<h4 align="center">One place for all your stuff, wherever you are."</h4>
 
 Dropbox is a home for all your photos, docs, videos, and files. Anything you add to Dropbox will automatically show up on all your computers, phones and even the Dropbox website — so you can access your stuff from anywhere.
 
