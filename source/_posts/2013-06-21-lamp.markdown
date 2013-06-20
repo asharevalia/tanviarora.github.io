@@ -70,9 +70,9 @@ The page should look like this:
 <br>9. Open Terminal and run:
 		sudo apt-get install mysql-server
 
-10. Run on Terminal:<br>
+10. Run on Terminal:
 		mysql -u root
-<br>
+
 11. We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:<br>
 		sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin
 12. After that is installed our next task is to get PHP to work with MySQL. To do this will need to open a file entitled php.ini. To open it type the following<br>
