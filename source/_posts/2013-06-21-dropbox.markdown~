@@ -5,6 +5,21 @@ date: 2013-06-21 04:46
 comments: true
 categories: 
 ---
+{% img center /images/dropbox1.png 600 400 Dropbox "image not available" %}
 
-{% img center /images/dropbox.jpg 400 400 Dropbox "image not available" %}
+<h2 align="center"> What is Dropbox?</h2>
+	"One place for all your stuff, wherever you are."
 
+Dropbox is a home for all your photos, docs, videos, and files. Anything you add to Dropbox will automatically show up on all your computers, phones and even the Dropbox website — so you can access your stuff from anywhere.
+
+Dropbox also makes it super easy to share with others, whether you're a student or professional, parent or grandparent. Even if you accidentally spill a latte on your laptop, have no fear! Relax knowing that your stuff is safe in Dropbox and will never be lost.
+
+{% img center /images/dropbox.jpg 600 400 Dropbox "image not available" %}
+
+<h2 align="center">Be there for You</h2>
+
+Dropbox works hard to make sure that all your stuff is the same wherever you happen to be. Start a doc from a computer at school or work, make edits from your phone on the way home, then add finishing touches from a tablet in your living room.
+
+With apps available for all your computers, phones, and tablets, you can show off videos, automatically upload photos, or open documents from anywhere.
+
+{% img center /images/dropbox2.png 600 400 Dropbox "image not available" %}
