@@ -28,19 +28,19 @@ To start off we will install Apache.<br>
 To make sure apache is installed correctly:<br>
 2. Run on web browser:
 		http://localhost/
-<br> You should see a folder entitled <b> apache2-default</b>. Open it and you will see a message saying "It Works!" ,congrats to you!
+You should see a folder entitled <b> apache2-default</b>. Open it and you will see a message saying "It Works!" ,congrats to you!<br>
 <h3>Install PHP</h3>
  In this part we will install PHP 5
-<br>3. Open Terminal and run:
+3. Open Terminal and run:
 		sudo apt-get install php5 libapache2-mod-php5
-<br>4. In order for PHP to work and be compatible with apache we must restart it. Run command:
+4. In order for PHP to work and be compatible with apache we must restart it. Run command:
 		sudo /etc/init.d/apache2 restart
 <p>
 <p><h3>Testing PHP</h3></p>
 To make sure PHP is installed correctly
 <br>5. In the Terminal run:
 		sudo gedit /var/www/testphp.php
-<br>This will open up a file called  phptest.php
+This will open up a file called  phptest.php
 <br>
 6. copy this line into the phptest.php
 		<?php phpinfo(); ?>
@@ -50,6 +50,9 @@ To make sure PHP is installed correctly
 <br>The page should look like this:
  		Test PHP Page
 		
+
+
+																									
 		
 		
 		
@@ -64,23 +67,20 @@ To make sure PHP is installed correctly
  In this part we will install MySQL to find this guide.
 <br>9. Open Terminal and run:
 		sudo apt-get install mysql-server
-<br>
+
 10. Run on Terminal:
 		mysql -u root
 <br>
 11. We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:
 		sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin
-<br>
 12. After that is installed our next task is to get PHP to work with MySQL. To do this will need to open a file entitled php.ini. To open it type the following
 		gksudo gedit /etc/php5/apache2/php.ini
-<br>
+
 13. Now we are going to have to uncomment the following line by taking out the semicolon(;).
   <br>  Change this line:
 		;extension=mysql.so
-<br>
 14. To look like this:<br>
 		extension=mysql.so
-<br>
 15. Now just restart apache and you are all set! <br>
 		sudo /etc/init.d/apache2 restart
 <br>
