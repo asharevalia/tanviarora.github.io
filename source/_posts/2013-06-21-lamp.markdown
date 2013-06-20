@@ -44,15 +44,12 @@ This will open up a file called  phptest.php
 <br>
 6. copy this line into the phptest.php
 		<?php phpinfo(); ?>
-<br>7. save and close the file.
+7. save and close the file.
 <br>8. Run on web browser:
 		http://localhost/testphp.php
-<br>The page should look like this:
+The page should look like this:
  		Test PHP Page
 		
-
-
-																									
 		
 		
 		
@@ -61,19 +58,18 @@ This will open up a file called  phptest.php
 		
 		
 		
-
-
+		
 <h3>Install MySQL</h3>
  In this part we will install MySQL to find this guide.
 <br>9. Open Terminal and run:
 		sudo apt-get install mysql-server
 
-10. Run on Terminal:
+10. Run on Terminal:<br>
 		mysql -u root
 <br>
-11. We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:
+11. We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:<br>
 		sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin
-12. After that is installed our next task is to get PHP to work with MySQL. To do this will need to open a file entitled php.ini. To open it type the following
+12. After that is installed our next task is to get PHP to work with MySQL. To do this will need to open a file entitled php.ini. To open it type the following<br>
 		gksudo gedit /etc/php5/apache2/php.ini
 
 13. Now we are going to have to uncomment the following line by taking out the semicolon(;).
