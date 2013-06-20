@@ -34,7 +34,7 @@ You should see a folder entitled <b> apache2-default</b>. Open it and you will s
 3. Open Terminal and run:
 		sudo apt-get install php5 libapache2-mod-php5 
 
-4. In order for PHP to work and be compatible with apache we must restart it. Run command:
+<br>4. In order for PHP to work and be compatible with apache we must restart it. Run command:
 		sudo /etc/init.d/apache2 restart
 <p>
 <p><h3>Testing PHP</h3></p>
