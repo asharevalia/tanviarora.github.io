@@ -43,10 +43,13 @@ To make sure PHP is installed correctly
 This will open up a file called  phptest.php
 <br>
 6. copy this line into the phptest.php
-		<?php phpinfo(); ?>
+		<?php phpinfo(); ?> 
+<br>
 7. save and close the file.
-<br>8. Run on web browser:
+<br>
+8. Run on web browser:
 		http://localhost/testphp.php
+<br>
 The page should look like this:
  		Test PHP Page
 		
