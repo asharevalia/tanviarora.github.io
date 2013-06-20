@@ -45,10 +45,8 @@ This will open up a file called  phptest.php
 <br>
 6. copy this line into the phptest.php
 		<?php phpinfo(); ?> 
-
-7. save and close the file.
-<br>
-8. Run on web browser:
+<br>7. save and close the file.
+<br>8. Run on web browser:
 		http://localhost/testphp.php
 
 The page should look like this:
