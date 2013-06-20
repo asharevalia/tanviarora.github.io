@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://tanviarora.github.io/atom.xml" rel="self"/>
   <link href="http://tanviarora.github.io/"/>
-  <updated>2013-06-21T02:43:55+05:30</updated>
+  <updated>2013-06-21T02:55:35+05:30</updated>
   <id>http://tanviarora.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -55,25 +55,22 @@ The exact combination of software included in a LAMP package may vary, especiall
 <pre><code>    http://localhost/
 </code></pre>
 
-<br> You should see a folder entitled <b> apache2-default</b>. Open it and you will see a message saying &#8220;It Works!&#8221; ,congrats to you!
-
+<p>You should see a folder entitled <b> apache2-default</b>. Open it and you will see a message saying &ldquo;It Works!&rdquo; ,congrats to you!<br></p>
 
 <h3>Install PHP</h3>
 
 
-<p> In this part we will install PHP 5</p>
-
-<br>3. Open Terminal and run:
-
+<p> In this part we will install PHP 5
+3. Open Terminal and run:</p>
 
 <pre><code>    sudo apt-get install php5 libapache2-mod-php5
 </code></pre>
 
-<br>4. In order for PHP to work and be compatible with apache we must restart it. Run command:
+<ol>
+<li>In order for PHP to work and be compatible with apache we must restart it. Run command:
+     sudo /etc/init.d/apache2 restart</li>
+</ol>
 
-
-<pre><code>    sudo /etc/init.d/apache2 restart
-</code></pre>
 
 <p><p>
 <p><h3>Testing PHP</h3></p>
@@ -83,7 +80,7 @@ To make sure PHP is installed correctly
 <pre><code>    sudo gedit /var/www/testphp.php
 </code></pre>
 
-<p><br>This will open up a file called  phptest.php
+<p>This will open up a file called  phptest.php
 <br>
 6. copy this line into the phptest.php</p>
 
@@ -108,46 +105,26 @@ To make sure PHP is installed correctly
 <pre><code>    sudo apt-get install mysql-server
 </code></pre>
 
-<p><br>
-10. Run on Terminal:</p>
-
-<pre><code>    mysql -u root
-</code></pre>
-
-<p><br>
-11. We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:</p>
-
-<pre><code>    sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin
-</code></pre>
-
-<p><br>
-12. After that is installed our next task is to get PHP to work with MySQL. To do this will need to open a file entitled php.ini. To open it type the following</p>
-
-<pre><code>    gksudo gedit /etc/php5/apache2/php.ini
-</code></pre>
-
-<p><br>
-13. Now we are going to have to uncomment the following line by taking out the semicolon(;).
-  <br>  Change this line:</p>
-
-<pre><code>    ;extension=mysql.so
-</code></pre>
-
-<p><br>
-14. To look like this:<br></p>
-
-<pre><code>    extension=mysql.so
-</code></pre>
-
-<p><br>
-15. Now just restart apache and you are all set! <br></p>
-
-<pre><code>    sudo /etc/init.d/apache2 restart
-</code></pre>
-
-<p><br>
+<ol>
+<li>Run on Terminal:
+    mysql -u root
+<br></li>
+<li>We are now going to install a program called phpMyAdmin which is an easy tool to edit your databases. Copy/paste the following line into Terminal:
+    sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin</li>
+<li><p>After that is installed our next task is to get PHP to work with MySQL. To do this will need to open a file entitled php.ini. To open it type the following
+    gksudo gedit /etc/php5/apache2/php.ini</p></li>
+<li><p>Now we are going to have to uncomment the following line by taking out the semicolon(;).
+<br>  Change this line:
+    ;extension=mysql.so</p></li>
+<li>To look like this:<br>
+    extension=mysql.so</li>
+<li>Now just restart apache and you are all set! <br>
+    sudo /etc/init.d/apache2 restart
+<br>
 <h1 align="center"> Are You Ready To Work On LAMP?</h1>
-<br></p>
+<br></li>
+</ol>
+
 ]]></content>
   </entry>
   
